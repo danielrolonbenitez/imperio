@@ -1,0 +1,13 @@
+.img-cartelera
+{
+margin-top: 100px !important;
+ border: 2px solid #dadada;
+    border-radius: 7px;
+  outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+    height: auto;
+    text-align: center;
+    padding: 10px;	
+ height: 350px;
+}

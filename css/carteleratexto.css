@@ -1,0 +1,58 @@
+
+
+
+
+
+.cartelera-text{
+   border: 2px solid #dadada;
+    border-radius: 7px;
+  outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    top: 100px;
+}
+
+
+
+
+
+.neon {
+  font-size: 40px;
+  letter-spacing:-2px;
+  color: #fff;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00de, 0 0 25px #ff00de;
+  -webkit-text-fill-color: #F4ECFF;
+  -webkit-text-stroke-color:#C546F7;
+  -webkit-text-stroke-width:0.2px; 
+}
+
+
+
+#anim{
+  
+    
+    position: relative;
+  
+    -webkit-animation: mymove 7s infinite; /* Chrome, Safari, Opera */
+    -webkit-animation-delay: 4s; /* Chrome, Safari, Opera */
+  
+    animation: mymove 7s infinite;
+    animation-delay: 4s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+}
+
+/*end principal*/

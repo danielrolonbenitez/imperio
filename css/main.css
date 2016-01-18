@@ -1,0 +1,26 @@
+@font-face {
+		font-family: "salterio";
+		font-style: normal;
+		
+		src: url('tipografia/midevil.woff') format('woff');
+	}
+
+body
+{
+margin: 0px;
+padding: 0px;
+background: black !important;
+}
+
+
+.container
+{
+margin-left:10%;
+/*background-image:url('../img/fondo.png');  */
+background: black;
+
+}
+
+/*begin banner*/
+/**/
+/**/

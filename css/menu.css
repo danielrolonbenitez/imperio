@@ -1,0 +1,160 @@
+/*begin menu*/
+@font-face {
+		font-family: "salterio";
+		font-style: normal;
+		
+		src: url('tipografia/midevil.woff') format('woff');
+	}
+.menu-nav{
+display: none;
+}
+
+.menu
+{
+background:orange;
+padding: 1px;
+height: 1px;
+color:white;
+/*position: relative;
+top: -20px;*/
+font-family: salterio !important;
+text-align: center;
+}
+
+.btn-menu
+{
+ margin-left: 2%;
+ font-size: 55px !important; 
+ color: white !important;
+ text-decoration: none !important;
+ padding: 5px;
+
+}
+
+.btn-menu:hover
+{
+ background: -webkit-linear-gradient(red,white,blue);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.glyphicon-menu-hamburger
+{
+font-size:50px;	
+}
+
+
+
+
+/*end menu*/
+/*begin menu responsive*/
+
+/*@media (max-width: 600px){
+
+.menu-nav
+{
+
+display: block;
+background:rgba(0,0,0,0.1);
+padding: 10px;
+height: 50px;	
+color:white;
+position: absolute;
+top: -0px;
+min-height: 220px;
+}
+
+.menu
+{
+display: none;	
+}
+
+
+.btn-menu
+{
+ margin-left: 10px;
+ font-size: 20px; 
+ color: white !important;
+ text-decoration: none !important;
+ padding: 5px;
+}
+
+
+
+
+
+
+
+} end query*/
+
+
+
+
+/*begin banner*/
+
+.banner-content
+{
+background: url('../img/ba.gif');
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+   
+    
+}
+
+
+.banner-fondo
+{
+	
+width: 800px;
+height: 350px;	
+}
+
+
+.banner-img
+{
+
+margin-left: 20%;
+width:auto;
+}
+
+
+
+
+
+
+
+
+@media(max-width:600px){
+
+.banner-content
+{
+
+min-height: 200px	
+}
+.banner-fondo
+{
+	
+width: 300px;
+height: 250px;	
+}
+
+
+
+.banner-img
+{
+
+top: 5%;
+left: 25%;
+width: 60%;
+}
+
+
+
+}
+
+
+
+
+/*end banner*/

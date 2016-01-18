@@ -1,0 +1,43 @@
+
+/*begin galery css*/
+
+
+#galery
+{
+margin-top: 1%;	
+padding: 5px;
+border:2px solid red; 
+}
+
+
+.galery-img
+{
+width: 200px;
+height: 200px;
+border: 1px solid red;	
+}
+
+
+.glyphicon-remove
+{
+margin-left: 90% !important;
+color:white !important;
+font-size: 20px !important;	
+} 
+
+.modal-header{background: black !important;    
+	border-bottom: 1px solid red !important;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(229, 229, 229);}
+
+
+
+
+.modal-body{background: black !important}
+
+
+
+
+
+/* end galery css*/
